@@ -1,0 +1,1 @@
+Pequeno vilarejo no meio do deserto onde o [[protagonista]] nasceu e foi criado, o prefeito, [[Mr. Principal]] é um velho chato que se mantem no poder graças a suas conexoes com a capital, [[Cristalpick]] e seus capangas aliados do xerife [[Mr. Low]]
