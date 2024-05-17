@@ -599,8 +599,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: 
-  sourceBankPath: 
+  sourceProjectPath: FMod/CoinMaster/CoinMaster.fspro
+  sourceBankPath: FMod/CoinMaster/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -621,8 +621,10 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks: []
-  Banks: []
+  MasterBanks:
+  - Master
+  Banks:
+  - Musics
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
@@ -635,21 +637,21 @@ MonoBehaviour:
   SharedLibraryUpdateStage: 0
   SharedLibraryTimeSinceStart: 0
   CurrentVersion: 131617
-  HideSetupWizard: 0
+  HideSetupWizard: 1
   LastEventReferenceScanVersion: 131617
   Platforms:
-  - {fileID: -684027500574696529}
-  - {fileID: -6674576839277294279}
-  - {fileID: -5755332205009919029}
-  - {fileID: 5996835354806057072}
-  - {fileID: -890731739121601843}
-  - {fileID: 5860640229688603700}
-  - {fileID: -2595550596039019152}
-  - {fileID: -3155787222822404631}
-  - {fileID: 8035653224904592147}
-  - {fileID: -1509923331235571020}
-  - {fileID: 2703216006221764661}
   - {fileID: -3627660868202941757}
+  - {fileID: 2703216006221764661}
+  - {fileID: -1509923331235571020}
+  - {fileID: 8035653224904592147}
+  - {fileID: -3155787222822404631}
+  - {fileID: -2595550596039019152}
+  - {fileID: 5860640229688603700}
+  - {fileID: -890731739121601843}
+  - {fileID: 5996835354806057072}
+  - {fileID: -5755332205009919029}
+  - {fileID: -6674576839277294279}
+  - {fileID: -684027500574696529}
   MigratedPlatforms: 080000001200000006000000050000000b000000000000000a000000090000000c000000150000000200000001000000
 --- !u!114 &2703216006221764661
 MonoBehaviour:
@@ -721,16 +723,16 @@ MonoBehaviour:
     HasValue: 0
   displaySortOrder: 0
   childIdentifiers:
-  - 2c5177b11d81d824dbb064f9ac8527da
-  - e7a046c753c3c3d4aacc91f6597f310d
-  - c88d16e5272a4e241b0ef0ac2e53b73d
-  - fd7c55dab0fce234b8c25f6ffca523c1
-  - 0f8eb3f400726694eb47beb1a9f94ce8
-  - de700ef3f37a49b58a57ae3addf01ad9
-  - b7716510a1f36934c87976f3a81dbf3d
-  - 52eb9df5db46521439908db3a29a1bbb
-  - 2fea114e74ecf3c4f920e1d5cc1c4c40
   - 46fbfdf3fc43db0458918377fd40293e
+  - 2fea114e74ecf3c4f920e1d5cc1c4c40
+  - 52eb9df5db46521439908db3a29a1bbb
+  - b7716510a1f36934c87976f3a81dbf3d
+  - de700ef3f37a49b58a57ae3addf01ad9
+  - 0f8eb3f400726694eb47beb1a9f94ce8
+  - fd7c55dab0fce234b8c25f6ffca523c1
+  - c88d16e5272a4e241b0ef0ac2e53b73d
+  - e7a046c753c3c3d4aacc91f6597f310d
+  - 2c5177b11d81d824dbb064f9ac8527da
   codecChannels:
     Value: []
     HasValue: 0

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Snapshot" id="{b0139b0d-6f38-4f9b-b513-ddcd59a062c2}">
+		<property name="name">
+			<value>FilterMusic</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{6951ef7d-ff52-4561-b8d7-e7711151b3e8}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{28bdaca3-b9f6-4b5a-9b89-f28dad442119}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{cfd03363-3502-45d1-8e67-498e3320064a}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{b39cbab8-faac-48d3-b648-fda5e30fc83f}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{b24630ce-9863-4e44-ae0c-fd9d2f1c3862}</destination>
+		</relationship>
+		<relationship name="snapshotProperties">
+			<destination>{ab199d67-8425-444a-a489-988292565a00}</destination>
+			<destination>{8891a31e-226b-4ba7-a3ec-6fc85b666aca}</destination>
+			<destination>{6890fd63-9e45-4116-9158-cf50ecd11232}</destination>
+		</relationship>
+		<relationship name="snapshotTracks">
+			<destination>{d03c4591-627d-4cae-82de-094547937b48}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{28bdaca3-b9f6-4b5a-9b89-f28dad442119}">
+		<relationship name="modulators">
+			<destination>{7c3bbc1c-d745-40d2-8881-3620a170b675}</destination>
+		</relationship>
+	</object>
+	<object class="MarkerTrack" id="{cfd03363-3502-45d1-8e67-498e3320064a}" />
+	<object class="Timeline" id="{b39cbab8-faac-48d3-b648-fda5e30fc83f}" />
+	<object class="SnapshotMasterTrack" id="{b24630ce-9863-4e44-ae0c-fd9d2f1c3862}" />
+	<object class="SnapshotProperty" id="{ab199d67-8425-444a-a489-988292565a00}">
+		<property name="propertyName">
+			<value>frequencyA</value>
+		</property>
+		<property name="value">
+			<value>85.2911987</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{b21332a9-58fb-4a5a-a1d7-aed6f03dcab7}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{8891a31e-226b-4ba7-a3ec-6fc85b666aca}">
+		<property name="propertyName">
+			<value>qualityA</value>
+		</property>
+		<property name="value">
+			<value>0.602344871</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{b21332a9-58fb-4a5a-a1d7-aed6f03dcab7}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{6890fd63-9e45-4116-9158-cf50ecd11232}">
+		<property name="propertyName">
+			<value>gainA</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{b21332a9-58fb-4a5a-a1d7-aed6f03dcab7}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{d03c4591-627d-4cae-82de-094547937b48}">
+		<relationship name="mixerStrip">
+			<destination>{ecb2c3e7-32ba-4ffe-a8d5-84a0790b048a}</destination>
+		</relationship>
+	</object>
+	<object class="ADSRModulator" id="{7c3bbc1c-d745-40d2-8881-3620a170b675}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>snapshotIntensity</value>
+		</property>
+		<property name="peakValue">
+			<value>100</value>
+		</property>
+		<property name="sustainValue">
+			<value>100</value>
+		</property>
+	</object>
+</objects>
