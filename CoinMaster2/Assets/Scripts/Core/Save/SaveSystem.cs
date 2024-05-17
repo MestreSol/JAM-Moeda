@@ -8,6 +8,7 @@ public class SaveSystem : MonoBehaviour
 {
     private string savePath;
 
+    
     public void Awake()
     {
         savePath = Path.GetTempPath();

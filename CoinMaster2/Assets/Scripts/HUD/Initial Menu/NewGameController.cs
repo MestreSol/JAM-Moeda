@@ -19,7 +19,7 @@ public class NewGameController : MonoBehaviour
     public TMP_Text T_Cha;
     public int TotalPoints = 10;
     public TMP_Text pontos;
-    
+
     Save newSave;
     public void Awake()
     {
@@ -196,7 +196,18 @@ public class NewGameController : MonoBehaviour
         {
             Debug.LogError("GameManager.Instance ou GameManager.Instance.SaveSystem é null.");
         }
-        GameManager.Instance.LoadScene("Initial");
+
+        // Pega a ultima scene do save e procura o numero dela
+        int sceneNo = 0;
+        if (newSave.LastSceneName != null)
+        {
+            sceneNo = GameManager.Instance.GetSceneNumber("Initial");
+        }
+        else
+        {
+            Debug.LogError("LastSceneName é null.");
+        }
+        GameManager.Instance.loadingScreenBarSystem.loadingScreen(1);
     }
 }
 
