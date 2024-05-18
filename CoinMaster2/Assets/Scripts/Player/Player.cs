@@ -6,13 +6,25 @@ public class Player : Entity
 {
     public Rigidbody2D rb;
     public PlayerAttributs attributs;
-    public PlayerController controller;
-    public GunController gun;
+    public List<GunController> guns;
+    public List<GunController> equippedGun;
+
+    public void TakeDamage(int damage)
+    {
+        health -= damage;
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         attributs = GetComponent<PlayerAttributs>();
-        controller = GetComponent<PlayerController>();
+        guns = new List<GunController>();
+        equippedGun = new List<GunController>();
+        guns.Add(gameObject.GetComponentInChildren<GunController>());
+        equippedGun.Add(guns[0]);
     }
     private void Update()
     {
@@ -25,6 +37,10 @@ public class Player : Entity
 
         // Move o jogador na direção recebida.
         Move(direction);
+        if(Input.GetMouseButtonDown(0))
+        {
+            equippedGun[0].Shoot();
+        }
     }
     public void Move(Vector2 direction)
     {
