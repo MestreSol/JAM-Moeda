@@ -11,6 +11,10 @@ public class BulletController : MonoBehaviour
             collision.gameObject.GetComponent<EnemyController>().TakeDamage(1);
             Debug.Log("Hit");
         }
+        if(collision.gameObject.CompareTag("Wall"))
+        {
+            Destroy(gameObject);
+        }
     }
 }
 

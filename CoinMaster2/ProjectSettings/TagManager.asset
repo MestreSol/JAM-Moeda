@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Enemy
   - Wall
+  - SpawnPoint
+  - Rooms
+  - DownDoor
+  - TopDoor
   layers:
   - Default
   - TransparentFX
@@ -15,9 +19,9 @@ TagManager:
   - UI
   - Enemy
   - Wall
-  - 
-  - 
-  - 
+  - Map
+  - Minimap
+  - Functions
   - 
   - 
   - 
@@ -51,4 +55,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 783944037
+    locked: 0
+  - name: HUD
+    uniqueID: 1770507739
     locked: 0

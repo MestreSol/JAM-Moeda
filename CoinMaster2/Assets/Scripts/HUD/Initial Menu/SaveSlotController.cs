@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SaveSlotController : MonoBehaviour
@@ -27,7 +28,7 @@ public class SaveSlotController : MonoBehaviour
 
     public void Load()
     {
-        GameManager.Instance.SaveSystem.LoadSave(SaveData);
+        SceneManager.LoadScene("Initial");
     }
 
 }

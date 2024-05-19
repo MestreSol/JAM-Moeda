@@ -2,18 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
     public SaveSystem SaveSystem;
     public Save CurrentSave;
     public LoadingScreenBarSystem loadingScreenBarSystem;
+    public GameState gameState;
     public void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
+            gameState = GameState.Playing;
             DontDestroyOnLoad(gameObject);
         }
         else
@@ -42,5 +43,10 @@ public class GameManager : MonoBehaviour
 
         // Retorna o número da cena.
         return scene.buildIndex;
+    }
+    public void GameOver()
+    {
+        // Carrega a cena de game over
+        LoadScene("GameOver");
     }
 }

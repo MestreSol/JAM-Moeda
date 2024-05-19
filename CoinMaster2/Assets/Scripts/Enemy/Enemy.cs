@@ -1,9 +1,9 @@
+using FMODUnity;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Enemy", menuName = "Enemy Default")]
-public class Enemy : ScriptableObject
+public class Enemy : MonoBehaviour
 {
     public int health;
     public int damage;
@@ -12,6 +12,4 @@ public class Enemy : ScriptableObject
     public float attackSpeed;
     public float attackCooldown;
     public float attackTimer;
-
-   
 }

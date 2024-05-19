@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 870bd3318d16c8249bad8b3cf1acdc76, type: 3}
   m_Name: New Enemy
   m_EditorClassIdentifier: 
-  health: 1
+  health: 10
   damage: 10
   speed: 10
   attackRange: 10
   attackSpeed: 10
-  attackCooldown: 10
-  attackTimer: 10
+  attackCooldown: 1
+  attackTimer: 9.997738

@@ -1,56 +1,56 @@
-using Steamworks;
 using UnityEngine;
+using Steamworks;
 
 public class SteamController : MonoBehaviour
 {
-    public static SteamController instance;
-    public SteamManager manager;
-    protected Callback<GameOverlayActivated_t> m_GameOverlayActivated;
-    private void OnEnable()
-    {
-        if (SteamManager.Initialized)
-        {
-            m_GameOverlayActivated = Callback<GameOverlayActivated_t>.Create(OnGameOverlayActivated);
-        }
-    }
-    private void OnGameOverlayActivated(GameOverlayActivated_t pCallback)
-    {
-        if (pCallback.m_bActive != 0)
-        {
-            Debug.Log("Steam Overlay has been activated");
-        }
-        else
-        {
-            Debug.Log("Steam Overlay has been closed");
-        }
-    }
+    // Singleton para a classe SteamController
+    public static SteamController Instance { get; private set; }
+
+    // Método Awake é chamado quando o script é inicializado
     private void Awake()
     {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
+        // Se a instância for nula, esta instância se torna a instância Singleton
+        if (Instance == null)
+            Instance = this;
+        // Se já existir uma instância, destruímos este objeto
         else
-        {
-            Destroy(this);
-        }
-        if (SteamManager.Initialized)
-        {
-            string name = SteamFriends.GetPersonaName();
-            Debug.Log(name);
-        }
+            Destroy(gameObject);
     }
-    private void Update()
+
+    // Método para obter o ID do usuário Steam
+    public string GetSteamID()
     {
-        if (!SteamManager.Initialized)
-        {
-            return;
-        }
-        SteamAPI.RunCallbacks();
+        // Retorna o ID do usuário Steam como uma string
+        return SteamUser.GetSteamID().ToString();
     }
-    
 
+    // Método para obter o nome do usuário Steam
+    public string GetSteamName()
+    {
+        // Retorna o nome do usuário Steam
+        return SteamFriends.GetPersonaName();
+    }
 
+    // Método para obter o idioma do jogo Steam
+    public string GetSteamLanguage()
+    {
+        // Retorna o idioma atual do jogo
+        return SteamApps.GetCurrentGameLanguage();
+    }
 
+    // Método para obter o caminho de instalação do jogo Steam
+    public string GetSteamInstallPath()
+    {
+        // Obtém o caminho de instalação do jogo e retorna
+        SteamApps.GetAppInstallDir(SteamUtils.GetAppID(), out string steamInstallPath, 256);
+        return steamInstallPath;
+    }
+
+    // Método para obter o código do idioma do jogo Steam
+    public string GetSteamLanguageCode()
+    {
+        // Retorna o código do idioma atual do jogo
+        // Você precisará usar um método diferente da API Steamworks para obter essa informação
+        return SteamApps.GetCurrentGameLanguage();
+    }
 }

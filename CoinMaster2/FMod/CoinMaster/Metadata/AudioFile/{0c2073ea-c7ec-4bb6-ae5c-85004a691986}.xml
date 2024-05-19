@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{0c2073ea-c7ec-4bb6-ae5c-85004a691986}">
+		<property name="assetPath">
+			<value>cashier-quotka-chingquot-sound-effect-129698.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.4816326530612245</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{eaffdbde-2d19-4dba-a142-055373a1139e}</destination>
+		</relationship>
+	</object>
+</objects>
