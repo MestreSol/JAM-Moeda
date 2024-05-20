@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DungeonDoor/AllDoors/AllDoorsA.unity
     guid: 4af62edd9bf02fc46b37033e868b0ba8
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 79a35f6b9d92ddb4d99e626e54a84cde
   m_configObjects: {}

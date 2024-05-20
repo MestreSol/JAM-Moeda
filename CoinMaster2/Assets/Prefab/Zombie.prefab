@@ -160,10 +160,11 @@ MonoBehaviour:
   speed: 3
   attackRange: 0
   attackSpeed: 3
-  attackCooldown: 3
+  attackCooldown: 1
   attackTimer: 0
   speed: 3
   enemyUI: {fileID: 5637523256962894759}
+  rb: {fileID: 0}
 --- !u!212 &7312850221347212484
 SpriteRenderer:
   m_ObjectHideFlags: 0

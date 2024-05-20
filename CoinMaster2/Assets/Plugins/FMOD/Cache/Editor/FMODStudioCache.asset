@@ -1,59 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9166220064632767707
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/HeartGrab
-  m_EditorClassIdentifier: 
-  Path: event:/HeartGrab
-  Guid:
-    Data1: 1700623109
-    Data2: 1153292122
-    Data3: -1353678162
-    Data4: -851948269
-  Banks:
-  - {fileID: -5377160349340721877}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-9155900258537443558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/CoinGrab
-  m_EditorClassIdentifier: 
-  Path: event:/CoinGrab
-  Guid:
-    Data1: 1484882072
-    Data2: 1300465945
-    Data3: 1785716630
-    Data4: -524523261
-  Banks:
-  - {fileID: -5377160349340721877}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &-8512291634990098563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74,33 +20,6 @@ MonoBehaviour:
   - Name: Desktop
     Value: 494
   Exists: 1
---- !u!114 &-7601065321057897053
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PlayerHit
-  m_EditorClassIdentifier: 
-  Path: event:/PlayerHit
-  Guid:
-    Data1: -1327474132
-    Data2: 1305971957
-    Data3: 1136106903
-    Data4: 1408846956
-  Banks:
-  - {fileID: -5377160349340721877}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &-7407928310143907384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,177 +35,12 @@ MonoBehaviour:
   Path: FMod/CoinMaster/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638517432842627818
+  lastModified: 638517481306222572
   FileSizes:
   - Name: Desktop
-    Value: 1628
+    Value: 1758
   Exists: 1
---- !u!114 &-6360306679454849997
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/FilterFX
-  m_EditorClassIdentifier: 
-  Path: snapshot:/FilterFX
-  Guid:
-    Data1: 219981712
-    Data2: 1237989331
-    Data3: 1112258982
-    Data4: 1990795307
-  Banks:
-  - {fileID: -5377160349340721877}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
---- !u!114 &-5670339424869267454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/ZombieHit
-  m_EditorClassIdentifier: 
-  Path: event:/ZombieHit
-  Guid:
-    Data1: 1975963067
-    Data2: 1341799073
-    Data3: -1657032281
-    Data4: -90897280
-  Banks:
-  - {fileID: -5377160349340721877}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-5377160349340721877
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: FMod/CoinMaster/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638517432842602682
-  FileSizes:
-  - Name: Desktop
-    Value: 1997024
-  Exists: 1
---- !u!114 &-2219362204327242499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/BuySound
-  m_EditorClassIdentifier: 
-  Path: event:/BuySound
-  Guid:
-    Data1: 1475277173
-    Data2: 1138285877
-    Data3: 303699341
-    Data4: -704773668
-  Banks:
-  - {fileID: -5377160349340721877}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-1684191027286025748
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/GunNoAmmo
-  m_EditorClassIdentifier: 
-  Path: event:/GunNoAmmo
-  Guid:
-    Data1: 112929505
-    Data2: 1307642389
-    Data3: -1324003960
-    Data4: 88079224
-  Banks:
-  - {fileID: -5377160349340721877}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: -7407928310143907384}
-  - {fileID: -5377160349340721877}
-  - {fileID: -8512291634990098563}
-  EditorEvents:
-  - {fileID: 5824758726965344044}
-  - {fileID: 3086163141782562944}
-  - {fileID: 2676537183830082642}
-  - {fileID: 2956916032715885778}
-  - {fileID: -6360306679454849997}
-  - {fileID: -5670339424869267454}
-  - {fileID: 6157848474881300299}
-  - {fileID: 1241137985915578685}
-  - {fileID: -9155900258537443558}
-  - {fileID: -7601065321057897053}
-  - {fileID: -9166220064632767707}
-  - {fileID: -1684191027286025748}
-  - {fileID: -2219362204327242499}
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: -5377160349340721877}
-  StringsBanks:
-  - {fileID: -7407928310143907384}
-  cacheTime: 638517432842627818
-  cacheVersion: 131617
---- !u!114 &1241137985915578685
+--- !u!114 &-7283888157420173541
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -313,7 +67,135 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &2676537183830082642
+--- !u!114 &-6921101703569567467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BuySound
+  m_EditorClassIdentifier: 
+  Path: event:/BuySound
+  Guid:
+    Data1: 1475277173
+    Data2: 1138285877
+    Data3: 303699341
+    Data4: -704773668
+  Banks:
+  - {fileID: -5377160349340721877}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6574947471643470197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PlayerHit
+  m_EditorClassIdentifier: 
+  Path: event:/PlayerHit
+  Guid:
+    Data1: -1327474132
+    Data2: 1305971957
+    Data3: 1136106903
+    Data4: 1408846956
+  Banks:
+  - {fileID: -5377160349340721877}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5377160349340721877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMod/CoinMaster/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638517481306202489
+  FileSizes:
+  - Name: Desktop
+    Value: 10225984
+  Exists: 1
+--- !u!114 &-5305217847392062268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ZombieHit
+  m_EditorClassIdentifier: 
+  Path: event:/ZombieHit
+  Guid:
+    Data1: 1975963067
+    Data2: 1341799073
+    Data3: -1657032281
+    Data4: -90897280
+  Banks:
+  - {fileID: -5377160349340721877}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2180276635386813016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/GunNoAmmo
+  m_EditorClassIdentifier: 
+  Path: event:/GunNoAmmo
+  Guid:
+    Data1: 112929505
+    Data2: 1307642389
+    Data3: -1324003960
+    Data4: 88079224
+  Banks:
+  - {fileID: -5377160349340721877}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1825588695602807798
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -340,34 +222,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
---- !u!114 &2956916032715885778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/FilterAmbience
-  m_EditorClassIdentifier: 
-  Path: snapshot:/FilterAmbience
-  Guid:
-    Data1: -315799923
-    Data2: 1197505547
-    Data3: -1073348417
-    Data4: -301610592
-  Banks:
-  - {fileID: -5377160349340721877}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
---- !u!114 &3086163141782562944
+--- !u!114 &-1723118022311262911
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -394,7 +249,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 196848
---- !u!114 &5824758726965344044
+--- !u!114 &-1259792784496482438
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -421,7 +276,155 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
---- !u!114 &6157848474881300299
+--- !u!114 &-940054776553957485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/City
+  m_EditorClassIdentifier: 
+  Path: event:/City
+  Guid:
+    Data1: 1047413814
+    Data2: 1143993755
+    Data3: 1886573455
+    Data4: -1379443197
+  Banks:
+  - {fileID: -5377160349340721877}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -7407928310143907384}
+  - {fileID: -5377160349340721877}
+  - {fileID: -8512291634990098563}
+  EditorEvents:
+  - {fileID: 2825264852500166919}
+  - {fileID: -1259792784496482438}
+  - {fileID: 5006267552019860589}
+  - {fileID: -6574947471643470197}
+  - {fileID: -940054776553957485}
+  - {fileID: -1825588695602807798}
+  - {fileID: -6921101703569567467}
+  - {fileID: 7600640084676249650}
+  - {fileID: -1723118022311262911}
+  - {fileID: 3814681990016478350}
+  - {fileID: 6935895866086973848}
+  - {fileID: -5305217847392062268}
+  - {fileID: -7283888157420173541}
+  - {fileID: 7830996558489765725}
+  - {fileID: -2180276635386813016}
+  - {fileID: 1311238839836748379}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -5377160349340721877}
+  StringsBanks:
+  - {fileID: -7407928310143907384}
+  cacheTime: 638517481306222572
+  cacheVersion: 131617
+--- !u!114 &1311238839836748379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/GameOver
+  m_EditorClassIdentifier: 
+  Path: event:/GameOver
+  Guid:
+    Data1: 1757717236
+    Data2: 1210887659
+    Data3: -580969281
+    Data4: 2018377887
+  Banks:
+  - {fileID: -5377160349340721877}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2825264852500166919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HeartGrab
+  m_EditorClassIdentifier: 
+  Path: event:/HeartGrab
+  Guid:
+    Data1: 1700623109
+    Data2: 1153292122
+    Data3: -1353678162
+    Data4: -851948269
+  Banks:
+  - {fileID: -5377160349340721877}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3814681990016478350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/FilterFX
+  m_EditorClassIdentifier: 
+  Path: snapshot:/FilterFX
+  Guid:
+    Data1: 219981712
+    Data2: 1237989331
+    Data3: 1112258982
+    Data4: 1990795307
+  Banks:
+  - {fileID: -5377160349340721877}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &5006267552019860589
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -444,6 +447,87 @@ MonoBehaviour:
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6935895866086973848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CoinGrab
+  m_EditorClassIdentifier: 
+  Path: event:/CoinGrab
+  Guid:
+    Data1: 1484882072
+    Data2: 1300465945
+    Data3: 1785716630
+    Data4: -524523261
+  Banks:
+  - {fileID: -5377160349340721877}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7600640084676249650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/FilterAmbience
+  m_EditorClassIdentifier: 
+  Path: snapshot:/FilterAmbience
+  Guid:
+    Data1: -315799923
+    Data2: 1197505547
+    Data3: -1073348417
+    Data4: -301610592
+  Banks:
+  - {fileID: -5377160349340721877}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &7830996558489765725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cave
+  m_EditorClassIdentifier: 
+  Path: event:/Cave
+  Guid:
+    Data1: -224125761
+    Data2: 1135335989
+    Data3: -987079250
+    Data4: 1763443434
+  Banks:
+  - {fileID: -5377160349340721877}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20

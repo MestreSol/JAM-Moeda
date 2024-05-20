@@ -3,6 +3,7 @@ using Steamworks;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : Entity
 {
@@ -29,7 +30,7 @@ public class Player : Entity
     }
     public float GrabRange()
     {
-        return attributs.Dexterity * 10f;
+        return attributs.Dexterity;
     }
     public string fmodEventPath_Hit = "event:/PlayerHit";
     public string fmodEventPath_Die = "event:/PlayerDie";
@@ -46,6 +47,7 @@ public class Player : Entity
                 SteamUserStats.SetAchievement("Prezunto_1");
                 SteamUserStats.StoreStats();
             }
+            SceneManager.LoadScene("GameOver");
             Destroy(gameObject);
         }
     }
@@ -129,15 +131,8 @@ public class Player : Entity
     }
     public void Move(Vector2 direction)
     {
-        // Normaliza o vetor de direção para garantir que a velocidade do jogador seja constante em todas as direções.
-        Vector2 normalizedDirection = direction.normalized;
-
-        // Calcula a nova posição do jogador.
-        Vector2 newPosition = rb.position + normalizedDirection * speed * Time.fixedDeltaTime;
-
-        // Move o jogador para a nova posição.
-        rb.MovePosition(newPosition);
+        rb.velocity = direction.normalized * speed;
     }
 
-    
+
 }
