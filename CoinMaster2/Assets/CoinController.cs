@@ -46,7 +46,7 @@ public class CoinController : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Player.instance.AddCoins(2 * coinTier);
+            Player.instance.AddCoins(4 * coinTier);
             RuntimeManager.PlayOneShot(fmodEventPath, transform.position);
             Destroy(gameObject);
         }

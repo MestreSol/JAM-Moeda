@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 4836146199718379421, guid: 3ef946a09304211498ae794ff0259041, type: 3}
     - target: {fileID: 599987167151504518, guid: d7e461d0d0fe16848bd6c01f65376429, type: 3}
       propertyPath: offset.x
-      value: -15.5
+      value: -16
       objectReference: {fileID: 0}
     - target: {fileID: 599987167151504518, guid: d7e461d0d0fe16848bd6c01f65376429, type: 3}
       propertyPath: offset.y
@@ -34,7 +34,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1666408886018630501, guid: d7e461d0d0fe16848bd6c01f65376429, type: 3}
       propertyPath: m_Name
-      value: LateralDoors
+      value: LeftDoor
       objectReference: {fileID: 0}
     - target: {fileID: 2467512258860167127, guid: d7e461d0d0fe16848bd6c01f65376429, type: 3}
       propertyPath: m_Sprite

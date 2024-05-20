@@ -6,16 +6,19 @@ public class WallExists : MonoBehaviour
 {
 
     public bool wallExist = false;
-    public void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(other.gameObject.tag == "Wall")
+        if (collision.gameObject.tag == "Wall")
         {
-            Debug.Log("Wall exists");
             wallExist = true;
         }
-        if(other.gameObject.tag == "Player" && !wallExist)
+        if(collision.gameObject.tag == "Player")
         {
-            Player.instance.TakeDamage(100000); 
+            if (!wallExist)
+            {
+                Player.instance.TakeDamage(10000);
+            }
         }
     }
+
 }

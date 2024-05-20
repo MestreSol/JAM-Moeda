@@ -19,7 +19,7 @@ public class SpawnerController : MonoBehaviour
     public void InitializeRoom()
     {
         controller.Enemy = new List<GameObject>();
-        EnemyQTD = Random.Range(1, 50);
+        EnemyQTD = Random.Range(1, 10);
         StartCoroutine(SpawnEnemy());
     }
     public IEnumerator SpawnEnemy()

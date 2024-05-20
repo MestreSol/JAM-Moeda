@@ -34,9 +34,14 @@ public class Player : Entity
     }
     public string fmodEventPath_Hit = "event:/PlayerHit";
     public string fmodEventPath_Die = "event:/PlayerDie";
-    
+    public bool canTakeDamage = true;
+    public int ImortalTime = 1;
     public void TakeDamage(int damage)
     {
+        if (!canTakeDamage)
+        {
+            return;
+        }
         RuntimeManager.PlayOneShot(fmodEventPath_Hit, transform.position);
 
         health -= damage;
@@ -50,6 +55,14 @@ public class Player : Entity
             SceneManager.LoadScene("GameOver");
             Destroy(gameObject);
         }
+        canTakeDamage = false;
+        StartCoroutine(Imortal());
+
+    }
+    public IEnumerator Imortal()
+    {
+        yield return new WaitForSeconds(ImortalTime);
+        canTakeDamage = true;
     }
 
     public void AddCoins(int amount)
@@ -116,8 +129,8 @@ public class Player : Entity
     private void Update()
     {
         // Pega o input axis horizontal e vertical.
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
+        float horizontal = Input.GetAxisRaw("Horizontal");
+        float vertical = Input.GetAxisRaw("Vertical");
 
         // Cria um vetor de direção com base no input do jogador.
         Vector2 direction = new Vector2(horizontal, vertical);
@@ -131,7 +144,14 @@ public class Player : Entity
     }
     public void Move(Vector2 direction)
     {
-        rb.velocity = direction.normalized * speed;
+        if (direction.magnitude > 0)
+        {
+            rb.velocity = direction.normalized * speed;
+        }
+        else
+        {
+            rb.velocity = Vector2.zero;
+        }
     }
 
 

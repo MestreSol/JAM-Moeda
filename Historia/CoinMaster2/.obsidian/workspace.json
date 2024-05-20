@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coyote Canyon.md",
+                "file": "Valley of Figures.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coyote Canyon.md",
+                "file": "Valley of Figures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coyote Canyon.md",
+                "file": "Valley of Figures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coyote Canyon.md"
+                "file": "Valley of Figures.md"
               }
             }
           }
@@ -181,15 +181,15 @@
   },
   "active": "214d0bb644fe4348",
   "lastOpenFiles": [
-    "Cidades.md",
-    "Coyote Canyon.md",
+    "protagonista.md",
+    "Mr. Principal.md",
+    "Mr. Low.md",
+    "Mojave Mirage.md",
     "Hissing Snake.md",
     "Durango Dunes.md",
+    "Coyote Canyon.md",
+    "Cidades.md",
     "Valley of Figures.md",
-    "Mojave Mirage.md",
-    "protagonista.md",
-    "Mr. Low.md",
-    "Mr. Principal.md",
     "Welcome.md"
   ]
 }

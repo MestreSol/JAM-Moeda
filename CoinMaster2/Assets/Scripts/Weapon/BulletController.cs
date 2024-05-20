@@ -10,11 +10,14 @@ public class BulletController : MonoBehaviour
         {
             collision.gameObject.GetComponent<EnemyController>().TakeDamage(1);
             Debug.Log("Hit");
+            Destroy(gameObject);
         }
         if(collision.gameObject.CompareTag("Wall"))
         {
             Destroy(gameObject);
         }
+
+        Debug.Log("Collide With: " +collision.name);
     }
 }
 
